@@ -23,7 +23,7 @@ function prependCat(name) {
     return anotherGroup
 }
 function removeLastCat() {
-    const lastCatsss = cats.slice(0, -1) 
+    const lastCatsss = cats.slice(0, cats.length-1) 
     return lastCatsss
 
 }
