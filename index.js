@@ -2,23 +2,23 @@
 let cats = [
     "Milo","Otis","Garfield"
 ]
-function destructivelyAppendCat(name) {
+function destructivelyAppendCat() {
     cats.push("Ralph")
 }
 function destructivelyPrependCat(){
     cats.unshift("Bob")
 }
-function destructivelyRemoveLastCat(name) {
+function destructivelyRemoveLastCat() {
     cats.pop()
 }
-function destructivelyRemoveFirstCat(name) {
+function destructivelyRemoveFirstCat() {
     cats.shift()
 }
-function appendCat(name) {
+function appendCat() {
     const otherCats = [...cats, "Broom"]
     return otherCats
 }
-function prependCat(name) {
+function prependCat() {
     const anotherGroup = ["Arnold", ...cats]
     return anotherGroup
 }
